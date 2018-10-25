@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex !important;
+    width: 100%; 
+}
+
+.col-4 {
+    display: flex !important;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.card-header {
+    background-color: rgb(219, 75, 159)!important;
+    font-family: Arial, Verdana, helvetica;
+    font-weight: bold;
+}

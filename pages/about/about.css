@@ -1,0 +1,89 @@
+.bg-lightgray, .skillData-Wrapper {
+    background-color: #ddd;
+}
+.skillData-Wrapper {
+    width: 100%;
+}
+
+#skillgraphWrapper-break {
+  display: inline-block;
+  position: relative;
+  width: 100%; }
+
+#skillgraphWrapper-break:after {
+  margin-left: 85px;
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: -moz-calc(100% - 85px + 15px);
+  width: -webkit-calc(100% - 85px + 15px);
+  width: calc(100% - 85px + 15px);
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #000 2px, transparent 2px);
+  background-size: 10%;
+  background-color: rgba(255, 0, 0, 0.2); }
+
+#skillgraph {
+  padding: 1em; }
+
+.skill-row-break {
+  border-color: rgb(0, 255, 213);
+  border-width: 2px;
+  border-style: solid; }
+
+.skill-row {
+  margin: 0 0 30px 0; }
+
+.skillLabel {
+  float: left;
+  width: 100%;
+  color: black; }
+
+.skillData, .skillData-Wrapper {
+  line-height: 0.1 0.7em;
+  height: 0.1 0.7em;
+  width: .1em;
+  float: left;
+  color: white;
+  text-align: center; }
+
+.skillData-Wrapper {
+  width: 100%; }
+
+.bg-blue {
+  background-color: #0f434c; }
+
+.bg-red {
+  background-color: red; }
+ 
+ .bg-rust {
+    background-color: #33a4c9;
+}
+  
+ /* section classes */
+.sectionTitle {
+    padding: 0 0 0px 70px;
+    margin: 50px 0;
+    position: relative;
+}
+
+.sectionTitle:before {
+    background-color: #33a4c9;
+    border-radius: 15px;
+    content: ' ';
+    display: block;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0px;
+    width: 10px;
+}
+
+.sectionTitle-font, .sectionTitle {
+    font-size: 2.5rem;
+}
+
+section {
+    font-size: 1.8rem;
+}
