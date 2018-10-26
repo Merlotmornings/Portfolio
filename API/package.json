@@ -4,7 +4,8 @@
   "description": "API for Portfolio project. API using express.js.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/Merlotmornings/Portfolio/issues"
   },
-  "homepage": "https://github.com/Merlotmornings/Portfolio#readme"
+  "homepage": "https://github.com/Merlotmornings/Portfolio#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mssql": "^4.2.2"
+  }
 }
